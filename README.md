@@ -4,7 +4,7 @@ This project highlights a simple way to increase robustness when working with ex
 
 ## Concepts
 
-![schema](https://github.com/user-attachments/assets/584d286b-4fdd-442a-8ce6-43452208147b)
+![schema](https://github.com/user-attachments/assets/44821b3a-7979-4b83-9ebe-b9ea37bd089d)
 
 ### Retry
 
