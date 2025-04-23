@@ -2,6 +2,7 @@ import asyncio
 from typing import Awaitable, Callable, TypeVar
 from pydantic_ai import Agent
 from pydantic_ai.models import KnownModelName
+from pydantic_ai.models.fallback import FallbackModel
 from pydantic_ai.settings import ModelSettings
 
 from dotenv import load_dotenv
@@ -51,15 +52,22 @@ async def main() -> None:
         model_settings=ModelSettings(timeout=5.0),
     )
 
-    # MODEL
-    model_name: KnownModelName = "openai:gpt-4.1-nano"
+    fallback_model_names: list[KnownModelName] = [
+        "google-gla:gemini-2.0-flash",
+        "anthropic:claude-3-5-haiku-latest",
+    ]
+    model = FallbackModel(
+        default_model="openai:gpt-4.1-nano",
+        *fallback_model_names,
+    )
+
     prompt = "Who is Rick Astley?"
 
     # local function to run the API call
     async def run_api_call() -> str:
         """Execute the API call to the agent."""
         result = await agent.run(
-            model=model_name,
+            model=model,
             user_prompt=prompt,
         )
         return result.output
@@ -68,7 +76,7 @@ async def main() -> None:
 
     # or alternatively with a lambda, only works with sync agent
     # response = retry(
-    #     lambda: agent.run_sync(model=model_name, user_prompt=prompt).output,
+    #     lambda: agent.run_sync(model=model, user_prompt=prompt).output,
     # )
 
     print(f"API call successful: {response}")
