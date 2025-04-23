@@ -4,6 +4,8 @@ This project highlights a simple way to increase robustness when working with ex
 
 ## Concepts
 
+![schema](https://github.com/user-attachments/assets/584d286b-4fdd-442a-8ce6-43452208147b)
+
 ### Retry
 
 Call the same api multiple times if a temporary problem prevents successfull responses.
