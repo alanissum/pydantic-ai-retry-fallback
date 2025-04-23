@@ -1,5 +1,6 @@
 import asyncio
 from pydantic_ai import Agent
+from pydantic_ai.models import KnownModelName
 from pydantic_ai.settings import ModelSettings
 
 from dotenv import load_dotenv
@@ -13,7 +14,7 @@ async def main() -> None:
     )
 
     # MODEL
-    model_name = ""
+    model_name: KnownModelName = "openai:gpt-4.1-nano"
     prompt = "Who is Rick Astley?"
 
     # RETRY
