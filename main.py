@@ -21,7 +21,7 @@ async def main() -> None:
 
     for retry in range(num_retries):
         try:
-            response = agent.run_sync(
+            response = await agent.run(
                 model=model_name,
                 user_prompt=prompt,
             )
@@ -38,5 +38,4 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-
     asyncio.run(main())
